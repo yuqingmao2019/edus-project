@@ -58,7 +58,7 @@
 		<div id="main_iframe"
 			class="index_mainIfram_position  mainIfram_position">
 			<iframe class="main_iframe" id="home_iframe" frameborder="0"
-				border="0" src="Modules/User/UserManage.jsp"></iframe>
+				border="0" src="Modules/User/manage.jsp"></iframe>
 		</div>
 		
 		<!--====下面是页脚====-->

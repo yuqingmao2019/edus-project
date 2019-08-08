@@ -2,13 +2,14 @@ package com.yu.edu.web.controller;
 
 import com.yu.edu.User;
 import com.yu.edu.impl.ImplUserSerice;
+import com.yu.edu.web.controller.base.BaseController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/user")
-public class userController {
+public class userController extends BaseController<User>{
 
     @Autowired
      private ImplUserSerice service;
@@ -24,27 +25,27 @@ public class userController {
         User user=new User();
         user = service.findUserByid(id);
         System.out.println(user);
-        return "/User/UserInfo";
+        return "User/info";
     }
 
-    @RequestMapping("/manage")
+    @RequestMapping(manage)
     public String manage(){
 
         System.out.println("进入mange方法。。。。。。");
-        return "/User/UserManage";
+        return manage_page;
     }
 
 
 
-    @RequestMapping("/info")
+    @RequestMapping(info)
     public String info(){
         System.out.println("进入info方法。。。。。。");
-        return "/User/UserInfo";
+        return info_page;
     }
 
-    @RequestMapping("/edit")
+    @RequestMapping(Edit)
     public String edit(){
         System.out.println("进入edit方法。。。。。。");
-        return "User/UserEdit";
+        return manage_page;
     }
 }
