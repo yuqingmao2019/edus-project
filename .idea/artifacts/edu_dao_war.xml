@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="edu-dao:war">
+    <output-path>$PROJECT_DIR$/commom-prarent/edu-dao/target</output-path>
+    <root id="archive" name="edu-dao-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="edu-dao:war exploded" />
+    </root>
+  </artifact>
+</component>

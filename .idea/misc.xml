@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/commom-prarent/edu-dao" />
+    <file type="web" url="file://$PROJECT_DIR$/commom-prarent/edu-manage" />
+    <file type="web" url="file://$PROJECT_DIR$/commom-prarent/edu-model" />
+    <file type="web" url="file://$PROJECT_DIR$/commom-prarent/edu-service" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/commom-prarent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

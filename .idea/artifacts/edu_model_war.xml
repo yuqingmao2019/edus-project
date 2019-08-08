@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="edu-model:war">
+    <output-path>$PROJECT_DIR$/commom-prarent/edu-model/target</output-path>
+    <root id="archive" name="edu-model-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="edu-model:war exploded" />
+    </root>
+  </artifact>
+</component>
